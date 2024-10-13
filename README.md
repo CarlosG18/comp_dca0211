@@ -7,8 +7,6 @@
 
 ## 🚀 Unidade I
 
-Claro! Aqui está o texto reorganizado de acordo com a ordem em que os processos ocorrem durante a compilação:
-
 O processo de compilação segue várias etapas essenciais para transformar o código-fonte em código executável. Tudo começa com a **Análise Léxica**, que transforma o código-fonte em uma sequência de tokens — as menores unidades de significado, como palavras-chave, operadores e identificadores — enquanto remove espaços em branco e comentários.
 
 Em seguida, a **Análise Sintática** verifica se essa sequência de tokens obedece às regras gramaticais da linguagem de programação. Durante essa fase, uma árvore sintática é construída para representar a estrutura hierárquica do código.
@@ -22,4 +20,5 @@ Finalmente, a **Construção do Tradutor** lida com a geração do código inter
 Essas etapas, interligadas, garantem que o código-fonte seja corretamente analisado, traduzido e convertido para um formato executável.
 
 ### 🎯 Atividades/projetos
+
 - [📌 Laboratório 01 - Analisador Léxico ](./uni1/lab1/analisador_lexico.md)
