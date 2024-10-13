@@ -86,47 +86,40 @@ Token Lexer::Scan()
 		// retorna o token ID
 		return new_id;
 	}
-
-	// operadores (e caracteres não alphanuméricos isolados)
-	peek2 = peek;
 	stringstream termo;
-	stringstream termo_i;
-	termo << peek;
-	if (termo.str() == "/"){
-		peek = cin.get();
-		termo << peek;
-		if (termo.str() == "//"){
-			do{
-				peek = cin.get();
-			}while(peek != '\n');
-			Token t {peek};
-			return t;
-		}else if(termo.str() == "/*"){
-			do{
-				termo_i.str(""); //limpa a string
-				peek = cin.get();
-				termo_i << peek;
-				if(termo_i.str() == "*"){
-					stringstream p;
-					peek = cin.get();
-					p << peek;
-					termo_i << peek;
-					if(p.str() == "*"){
-						continue;
-					}
-					if(termo_i.str() == "*/"){
-						break;
-					}
-					cout << termo_i.str() << endl;
-				}
-			}while(termo_i.str() != "*/");
-			peek = cin.get();
-			Token t {peek};
-			return t;
-		}else{
-			peek = peek2;
-		}	
-	}
+    termo << peek;
+
+    if (termo.str() == "/") {
+        peek = cin.get();
+        termo << peek;
+
+        if (termo.str() == "//") {
+            // Ignora comentários de linha única
+            do {
+                peek = cin.get();
+            } while (peek != '\n');
+
+            return Token{peek};
+        } else if (termo.str() == "/*") {
+            // Ignora comentários de múltiplas linhas
+            do {
+                peek = cin.get();
+                if (peek == '*') {
+                    peek = cin.get();
+                    if (peek == '/') {
+                        break;  // Fim do comentário de múltiplas linhas
+                    }
+                }
+            } while (true);
+
+            peek = cin.get();
+            return Token{peek};
+        } else {
+            // Se não for comentário, restaura o valor anterior de `peek`
+            peek = termo.str()[0];
+        }
+    }
+
 	Token t {peek};
 	peek = ' ';
 
