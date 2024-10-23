@@ -2,7 +2,7 @@
 
 > adptando o codigo para aceitar comentários
 
-**Obs**: O código desenvolvido pegou como base os códigos desenvolvidos pelo professor JUDSON SANTIAGO onde você pode encontra-los [aqui](https://github.com/JudsonSS/Compiladores)
+**Obs**: O código desenvolvido pegou como base os códigos desenvolvidos pelo professor JUDSON SANTIAGO onde você pode encontra-los [aqui](https://github.com/JudsonSS/Compiladores) - **LAB6**.
 
 ## 💡 elaboração da solução
 
