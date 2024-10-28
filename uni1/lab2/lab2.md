@@ -20,9 +20,11 @@ basicamente a solução para realizar a conversão de um número inteiro para bo
         if(value.str() == "0"){
             expr1->type = ExprType::BOOL;
             expr1->token->tag = Tag::FALSE;
+            expr1->token->lexeme = "FALSE";
         } else{
             expr1->type = ExprType::BOOL;
             expr1->token->tag = Tag::TRUE;
+            expr1->token->lexeme = "TRUE";
         } 
     }
     
@@ -35,9 +37,11 @@ basicamente a solução para realizar a conversão de um número inteiro para bo
         if(value.str() == "0"){
             expr2->type = ExprType::BOOL;
             expr2->token->tag = Tag::FALSE;
+            expr2->token->lexeme = "FALSE";
         } else{
             expr2->type = ExprType::BOOL;
             expr2->token->tag = Tag::TRUE;
+            expr2->token->lexeme = "TRUE";
         }
     }
     

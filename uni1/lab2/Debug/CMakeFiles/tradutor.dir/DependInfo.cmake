@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.cpp" "CMakeFiles/tradutor.dir/ast.cpp.o" "gcc" "CMakeFiles/tradutor.dir/ast.cpp.o.d"
-  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/checker.cpp" "CMakeFiles/tradutor.dir/checker.cpp.o" "gcc" "CMakeFiles/tradutor.dir/checker.cpp.o.d"
-  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.cpp" "CMakeFiles/tradutor.dir/error.cpp.o" "gcc" "CMakeFiles/tradutor.dir/error.cpp.o.d"
-  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.cpp" "CMakeFiles/tradutor.dir/lexer.cpp.o" "gcc" "CMakeFiles/tradutor.dir/lexer.cpp.o.d"
-  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.cpp" "CMakeFiles/tradutor.dir/parser.cpp.o" "gcc" "CMakeFiles/tradutor.dir/parser.cpp.o.d"
-  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.cpp" "CMakeFiles/tradutor.dir/symtable.cpp.o" "gcc" "CMakeFiles/tradutor.dir/symtable.cpp.o.d"
-  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/tradutor.cpp" "CMakeFiles/tradutor.dir/tradutor.cpp.o" "gcc" "CMakeFiles/tradutor.dir/tradutor.cpp.o.d"
+  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.cpp" "CMakeFiles/tradutor.dir/ast.cpp.o" "gcc" "CMakeFiles/tradutor.dir/ast.cpp.o.d"
+  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/checker.cpp" "CMakeFiles/tradutor.dir/checker.cpp.o" "gcc" "CMakeFiles/tradutor.dir/checker.cpp.o.d"
+  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.cpp" "CMakeFiles/tradutor.dir/error.cpp.o" "gcc" "CMakeFiles/tradutor.dir/error.cpp.o.d"
+  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.cpp" "CMakeFiles/tradutor.dir/lexer.cpp.o" "gcc" "CMakeFiles/tradutor.dir/lexer.cpp.o.d"
+  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.cpp" "CMakeFiles/tradutor.dir/parser.cpp.o" "gcc" "CMakeFiles/tradutor.dir/parser.cpp.o.d"
+  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.cpp" "CMakeFiles/tradutor.dir/symtable.cpp.o" "gcc" "CMakeFiles/tradutor.dir/symtable.cpp.o.d"
+  "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/tradutor.cpp" "CMakeFiles/tradutor.dir/tradutor.cpp.o" "gcc" "CMakeFiles/tradutor.dir/tradutor.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

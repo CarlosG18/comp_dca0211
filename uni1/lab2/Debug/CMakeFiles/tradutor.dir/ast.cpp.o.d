@@ -1,5 +1,5 @@
 CMakeFiles/tradutor.dir/ast.cpp.o: \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.cpp \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/sstream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -140,8 +140,8 @@ CMakeFiles/tradutor.dir/ast.cpp.o: \
  /usr/include/c++/14.2.1/bits/istream.tcc \
  /usr/include/c++/14.2.1/bits/sstream.tcc \
  /usr/include/c++/14.2.1/iostream \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.h \
  /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/unordered_map.h \
  /usr/include/c++/14.2.1/bits/hashtable.h \
@@ -150,4 +150,4 @@ CMakeFiles/tradutor.dir/ast.cpp.o: \
  /usr/include/c++/14.2.1/bits/enable_special_members.h \
  /usr/include/c++/14.2.1/bits/node_handle.h \
  /usr/include/c++/14.2.1/bits/erase_if.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.h
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.h

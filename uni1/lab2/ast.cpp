@@ -85,9 +85,11 @@ Logical::Logical(Token *t, Expression *e1, Expression *e2) : Expression(NodeType
         if(value.str() == "0"){
             expr1->type = ExprType::BOOL;
             expr1->token->tag = Tag::FALSE;
+            expr1->token->lexeme = "FALSE";
         } else{
             expr1->type = ExprType::BOOL;
             expr1->token->tag = Tag::TRUE;
+            expr1->token->lexeme = "TRUE";
         } 
     }
     
@@ -100,9 +102,11 @@ Logical::Logical(Token *t, Expression *e1, Expression *e2) : Expression(NodeType
         if(value.str() == "0"){
             expr2->type = ExprType::BOOL;
             expr2->token->tag = Tag::FALSE;
+            expr2->token->lexeme = "FALSE";
         } else{
             expr2->type = ExprType::BOOL;
             expr2->token->tag = Tag::TRUE;
+            expr2->token->lexeme = "TRUE";
         }
     }
     

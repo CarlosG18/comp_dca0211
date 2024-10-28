@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2
+CMAKE_SOURCE_DIR = /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug
+CMAKE_BINARY_DIR = /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tradutor.dir/depend.make
@@ -70,102 +70,102 @@ include CMakeFiles/tradutor.dir/progress.make
 include CMakeFiles/tradutor.dir/flags.make
 
 CMakeFiles/tradutor.dir/ast.cpp.o: CMakeFiles/tradutor.dir/flags.make
-CMakeFiles/tradutor.dir/ast.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.cpp
+CMakeFiles/tradutor.dir/ast.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.cpp
 CMakeFiles/tradutor.dir/ast.cpp.o: CMakeFiles/tradutor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tradutor.dir/ast.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/ast.cpp.o -MF CMakeFiles/tradutor.dir/ast.cpp.o.d -o CMakeFiles/tradutor.dir/ast.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tradutor.dir/ast.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/ast.cpp.o -MF CMakeFiles/tradutor.dir/ast.cpp.o.d -o CMakeFiles/tradutor.dir/ast.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.cpp
 
 CMakeFiles/tradutor.dir/ast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tradutor.dir/ast.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.cpp > CMakeFiles/tradutor.dir/ast.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.cpp > CMakeFiles/tradutor.dir/ast.cpp.i
 
 CMakeFiles/tradutor.dir/ast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tradutor.dir/ast.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.cpp -o CMakeFiles/tradutor.dir/ast.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.cpp -o CMakeFiles/tradutor.dir/ast.cpp.s
 
 CMakeFiles/tradutor.dir/checker.cpp.o: CMakeFiles/tradutor.dir/flags.make
-CMakeFiles/tradutor.dir/checker.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/checker.cpp
+CMakeFiles/tradutor.dir/checker.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/checker.cpp
 CMakeFiles/tradutor.dir/checker.cpp.o: CMakeFiles/tradutor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tradutor.dir/checker.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/checker.cpp.o -MF CMakeFiles/tradutor.dir/checker.cpp.o.d -o CMakeFiles/tradutor.dir/checker.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/checker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tradutor.dir/checker.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/checker.cpp.o -MF CMakeFiles/tradutor.dir/checker.cpp.o.d -o CMakeFiles/tradutor.dir/checker.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/checker.cpp
 
 CMakeFiles/tradutor.dir/checker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tradutor.dir/checker.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/checker.cpp > CMakeFiles/tradutor.dir/checker.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/checker.cpp > CMakeFiles/tradutor.dir/checker.cpp.i
 
 CMakeFiles/tradutor.dir/checker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tradutor.dir/checker.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/checker.cpp -o CMakeFiles/tradutor.dir/checker.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/checker.cpp -o CMakeFiles/tradutor.dir/checker.cpp.s
 
 CMakeFiles/tradutor.dir/lexer.cpp.o: CMakeFiles/tradutor.dir/flags.make
-CMakeFiles/tradutor.dir/lexer.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.cpp
+CMakeFiles/tradutor.dir/lexer.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.cpp
 CMakeFiles/tradutor.dir/lexer.cpp.o: CMakeFiles/tradutor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tradutor.dir/lexer.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/lexer.cpp.o -MF CMakeFiles/tradutor.dir/lexer.cpp.o.d -o CMakeFiles/tradutor.dir/lexer.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tradutor.dir/lexer.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/lexer.cpp.o -MF CMakeFiles/tradutor.dir/lexer.cpp.o.d -o CMakeFiles/tradutor.dir/lexer.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.cpp
 
 CMakeFiles/tradutor.dir/lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tradutor.dir/lexer.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.cpp > CMakeFiles/tradutor.dir/lexer.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.cpp > CMakeFiles/tradutor.dir/lexer.cpp.i
 
 CMakeFiles/tradutor.dir/lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tradutor.dir/lexer.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.cpp -o CMakeFiles/tradutor.dir/lexer.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.cpp -o CMakeFiles/tradutor.dir/lexer.cpp.s
 
 CMakeFiles/tradutor.dir/parser.cpp.o: CMakeFiles/tradutor.dir/flags.make
-CMakeFiles/tradutor.dir/parser.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.cpp
+CMakeFiles/tradutor.dir/parser.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.cpp
 CMakeFiles/tradutor.dir/parser.cpp.o: CMakeFiles/tradutor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tradutor.dir/parser.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/parser.cpp.o -MF CMakeFiles/tradutor.dir/parser.cpp.o.d -o CMakeFiles/tradutor.dir/parser.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tradutor.dir/parser.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/parser.cpp.o -MF CMakeFiles/tradutor.dir/parser.cpp.o.d -o CMakeFiles/tradutor.dir/parser.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.cpp
 
 CMakeFiles/tradutor.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tradutor.dir/parser.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.cpp > CMakeFiles/tradutor.dir/parser.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.cpp > CMakeFiles/tradutor.dir/parser.cpp.i
 
 CMakeFiles/tradutor.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tradutor.dir/parser.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.cpp -o CMakeFiles/tradutor.dir/parser.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.cpp -o CMakeFiles/tradutor.dir/parser.cpp.s
 
 CMakeFiles/tradutor.dir/symtable.cpp.o: CMakeFiles/tradutor.dir/flags.make
-CMakeFiles/tradutor.dir/symtable.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.cpp
+CMakeFiles/tradutor.dir/symtable.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.cpp
 CMakeFiles/tradutor.dir/symtable.cpp.o: CMakeFiles/tradutor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tradutor.dir/symtable.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/symtable.cpp.o -MF CMakeFiles/tradutor.dir/symtable.cpp.o.d -o CMakeFiles/tradutor.dir/symtable.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tradutor.dir/symtable.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/symtable.cpp.o -MF CMakeFiles/tradutor.dir/symtable.cpp.o.d -o CMakeFiles/tradutor.dir/symtable.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.cpp
 
 CMakeFiles/tradutor.dir/symtable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tradutor.dir/symtable.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.cpp > CMakeFiles/tradutor.dir/symtable.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.cpp > CMakeFiles/tradutor.dir/symtable.cpp.i
 
 CMakeFiles/tradutor.dir/symtable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tradutor.dir/symtable.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.cpp -o CMakeFiles/tradutor.dir/symtable.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.cpp -o CMakeFiles/tradutor.dir/symtable.cpp.s
 
 CMakeFiles/tradutor.dir/error.cpp.o: CMakeFiles/tradutor.dir/flags.make
-CMakeFiles/tradutor.dir/error.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.cpp
+CMakeFiles/tradutor.dir/error.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.cpp
 CMakeFiles/tradutor.dir/error.cpp.o: CMakeFiles/tradutor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tradutor.dir/error.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/error.cpp.o -MF CMakeFiles/tradutor.dir/error.cpp.o.d -o CMakeFiles/tradutor.dir/error.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tradutor.dir/error.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/error.cpp.o -MF CMakeFiles/tradutor.dir/error.cpp.o.d -o CMakeFiles/tradutor.dir/error.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.cpp
 
 CMakeFiles/tradutor.dir/error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tradutor.dir/error.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.cpp > CMakeFiles/tradutor.dir/error.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.cpp > CMakeFiles/tradutor.dir/error.cpp.i
 
 CMakeFiles/tradutor.dir/error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tradutor.dir/error.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.cpp -o CMakeFiles/tradutor.dir/error.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.cpp -o CMakeFiles/tradutor.dir/error.cpp.s
 
 CMakeFiles/tradutor.dir/tradutor.cpp.o: CMakeFiles/tradutor.dir/flags.make
-CMakeFiles/tradutor.dir/tradutor.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/tradutor.cpp
+CMakeFiles/tradutor.dir/tradutor.cpp.o: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/tradutor.cpp
 CMakeFiles/tradutor.dir/tradutor.cpp.o: CMakeFiles/tradutor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tradutor.dir/tradutor.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/tradutor.cpp.o -MF CMakeFiles/tradutor.dir/tradutor.cpp.o.d -o CMakeFiles/tradutor.dir/tradutor.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/tradutor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tradutor.dir/tradutor.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tradutor.dir/tradutor.cpp.o -MF CMakeFiles/tradutor.dir/tradutor.cpp.o.d -o CMakeFiles/tradutor.dir/tradutor.cpp.o -c /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/tradutor.cpp
 
 CMakeFiles/tradutor.dir/tradutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tradutor.dir/tradutor.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/tradutor.cpp > CMakeFiles/tradutor.dir/tradutor.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/tradutor.cpp > CMakeFiles/tradutor.dir/tradutor.cpp.i
 
 CMakeFiles/tradutor.dir/tradutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tradutor.dir/tradutor.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/tradutor.cpp -o CMakeFiles/tradutor.dir/tradutor.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/tradutor.cpp -o CMakeFiles/tradutor.dir/tradutor.cpp.s
 
 # Object files for target tradutor
 tradutor_OBJECTS = \
@@ -189,7 +189,7 @@ tradutor: CMakeFiles/tradutor.dir/error.cpp.o
 tradutor: CMakeFiles/tradutor.dir/tradutor.cpp.o
 tradutor: CMakeFiles/tradutor.dir/build.make
 tradutor: CMakeFiles/tradutor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tradutor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tradutor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tradutor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/tradutor.dir/clean:
 .PHONY : CMakeFiles/tradutor.dir/clean
 
 CMakeFiles/tradutor.dir/depend:
-	cd /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2 /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2 /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/CMakeFiles/tradutor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2 /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2 /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/CMakeFiles/tradutor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tradutor.dir/depend
 

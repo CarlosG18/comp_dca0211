@@ -1,5 +1,5 @@
 CMakeFiles/tradutor.dir/checker.cpp.o: \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/checker.cpp \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/checker.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -142,7 +142,7 @@ CMakeFiles/tradutor.dir/checker.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.2.1/bits/fstream.tcc \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.h \
  /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/unordered_map.h \
  /usr/include/c++/14.2.1/bits/hashtable.h \
@@ -152,4 +152,4 @@ CMakeFiles/tradutor.dir/checker.cpp.o: \
  /usr/include/c++/14.2.1/bits/node_handle.h \
  /usr/include/c++/14.2.1/bits/erase_if.h /usr/include/c++/14.2.1/sstream \
  /usr/include/c++/14.2.1/bits/sstream.tcc \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.h
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.h

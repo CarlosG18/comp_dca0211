@@ -1,5 +1,5 @@
 CMakeFiles/tradutor.dir/tradutor.cpp.o: \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/tradutor.cpp \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/tradutor.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -143,7 +143,7 @@ CMakeFiles/tradutor.dir/tradutor.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.2.1/bits/fstream.tcc /usr/include/c++/14.2.1/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.h \
  /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/unordered_map.h \
  /usr/include/c++/14.2.1/bits/hashtable.h \
@@ -153,8 +153,8 @@ CMakeFiles/tradutor.dir/tradutor.cpp.o: \
  /usr/include/c++/14.2.1/bits/node_handle.h \
  /usr/include/c++/14.2.1/bits/erase_if.h /usr/include/c++/14.2.1/sstream \
  /usr/include/c++/14.2.1/bits/sstream.tcc \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/checker.h
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/checker.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2
+# Install script for directory: /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

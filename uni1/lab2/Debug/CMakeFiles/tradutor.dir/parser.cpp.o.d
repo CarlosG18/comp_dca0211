@@ -1,8 +1,8 @@
 CMakeFiles/tradutor.dir/parser.cpp.o: \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.cpp \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.cpp \
  /usr/include/stdc-predef.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/parser.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/lexer.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/parser.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/lexer.h \
  /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -150,7 +150,7 @@ CMakeFiles/tradutor.dir/parser.cpp.o: \
  /usr/include/c++/14.2.1/ostream /usr/include/c++/14.2.1/bits/ostream.tcc \
  /usr/include/c++/14.2.1/bits/istream.tcc \
  /usr/include/c++/14.2.1/bits/sstream.tcc \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/ast.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/error.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/ast.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/error.h \
  /usr/include/c++/14.2.1/iostream

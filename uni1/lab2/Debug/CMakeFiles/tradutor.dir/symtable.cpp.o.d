@@ -1,7 +1,7 @@
 CMakeFiles/tradutor.dir/symtable.cpp.o: \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.cpp \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.cpp \
  /usr/include/stdc-predef.h \
- /home/eduardo09/gabriel/ufrn/semestres/2024.2/comp_dca0211/uni1/lab2/symtable.h \
+ /home/eduardo09/gabriel/ufrn/semestres/2024.2/compiladores/comp_dca0211/uni1/lab2/symtable.h \
  /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
