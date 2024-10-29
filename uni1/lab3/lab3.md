@@ -6,14 +6,33 @@
 
 ## 💡 elaboração da solução
 
-basicamente a solução para realizar a geração de código intermediário da estrutura while foi desenvolvida apartir da adição do codigo abaixo no arquivo ``:
+basicamente a solução para realizar a geração de código intermediário da estrutura while foi desenvolvida apartir da adição do codigo abaixo no arquivo `ast.cpp`:
 
 ```c++
-    
+    While::While(Expression *e, Statement *s) : 
+    Statement(NodeType::WHILE_STMT), 
+    expr(e), 
+    stmt(s) 
+{
+    before = NewLabel();
+}
+
+void While::Gen()
+{
+    cout << 'L' << before << ':' << endl;
+    cout << "\tifTrue " << n->ToString() << " goto L" << before << endl;
+    stmt->Gen();
+    Expression * n = Rvalue(expr);
+}
 ```
 
 - **Alguns pontos interresantes**:
 
-1. 
+1. A geração de código intermediário para o while é bastante similir ao do dowhile, a unica diferença é que no while devemos executar primeiro a verificação para poder fazer as instruções que estão dentro do while. Por isso devemos fazer a verificação primeiro com a linha `cout << "\tifTrue " << n->ToString() << " goto L" << before << endl;`, caso seja verdadeiro ele irá para a linha seguinte, caso contrario ele irá pular para o proximo bloco de instruções definido pela variavel `before`.
 
-2. 
+2.  explicar a função Gen() do stmt e o Rvalue da expressão n;
+
+```txt
+stmt->Gen();
+Expression * n = Rvalue(expr);
+```

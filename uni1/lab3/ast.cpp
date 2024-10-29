@@ -330,12 +330,15 @@ While::While(Expression *e, Statement *s) :
     expr(e), 
     stmt(s) 
 {
-    
+    before = NewLabel();
 }
 
 void While::Gen()
 {
-    
+    cout << 'L' << before << ':' << endl;
+    cout << "\tifTrue " << n->ToString() << " goto L" << before << endl;
+    stmt->Gen();
+    Expression * n = Rvalue(expr);
 }
 
 // --------
