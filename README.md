@@ -24,3 +24,5 @@ Essas etapas, interligadas, garantem que o código-fonte seja corretamente anali
 - [📌 Laboratório 01 - Analisador Léxico ](./uni1/lab1/analisador_lexico.md)
 
 - [📌 Laboratório 02 - Analise Semântica ](./uni1/lab2/lab2.md)
+
+- [📌 Laboratório 03 - Geração de código intermediário](./uni1/lab3/lab3.md)
