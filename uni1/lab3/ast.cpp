@@ -331,14 +331,17 @@ While::While(Expression *e, Statement *s) :
     stmt(s) 
 {
     before = NewLabel();
+    after = before + 1;
 }
 
 void While::Gen()
 {
     cout << 'L' << before << ':' << endl;
-    cout << "\tifTrue " << n->ToString() << " goto L" << before << endl;
-    stmt->Gen();
     Expression * n = Rvalue(expr);
+    cout << "\tifFalse " << n->ToString() << " goto L" << after << endl;
+    stmt->Gen();
+    cout << "\tgoto L" << before << endl;
+    cout << 'L' << after << ':' << endl;
 }
 
 // --------

@@ -6,8 +6,9 @@
 
 ## 💡 elaboração da solução
 
-basicamente a solução para realizar a geração de código intermediário da estrutura while foi desenvolvida apartir da adição do codigo abaixo no arquivo `ast.cpp`:
+basicamente a solução para realizar a geração de código intermediário da estrutura while foi desenvolvida apartir da adição do codigo abaixo no arquivo `ast.cpp` e no `ast.h`:
 
+**ast.cpp**:
 ```c++
     While::While(Expression *e, Statement *s) : 
     Statement(NodeType::WHILE_STMT), 
@@ -15,24 +16,41 @@ basicamente a solução para realizar a geração de código intermediário da e
     stmt(s) 
 {
     before = NewLabel();
+    after = before + 1;
 }
 
 void While::Gen()
 {
     cout << 'L' << before << ':' << endl;
-    cout << "\tifTrue " << n->ToString() << " goto L" << before << endl;
-    stmt->Gen();
     Expression * n = Rvalue(expr);
+    cout << "\tifFalse " << n->ToString() << " goto L" << after << endl;
+    stmt->Gen();
+    cout << "\tgoto L" << before << endl;
+    cout << 'L' << after << ':' << endl;
 }
 ```
 
-- **Alguns pontos interresantes**:
-
-1. A geração de código intermediário para o while é bastante similir ao do dowhile, a unica diferença é que no while devemos executar primeiro a verificação para poder fazer as instruções que estão dentro do while. Por isso devemos fazer a verificação primeiro com a linha `cout << "\tifTrue " << n->ToString() << " goto L" << before << endl;`, caso seja verdadeiro ele irá para a linha seguinte, caso contrario ele irá pular para o proximo bloco de instruções definido pela variavel `before`.
-
-2.  explicar a função Gen() do stmt e o Rvalue da expressão n;
-
-```txt
-stmt->Gen();
-Expression * n = Rvalue(expr);
+**ast.h**
+```c++
+struct While : public Statement
+{
+    unsigned before;
+    unsigned after;
+    Expression *expr;
+    Statement *stmt;
+    While(Expression *e, Statement *s);
+    void Gen();
+};
 ```
+
+### 🔄 Explicando o fluxo:
+
+1. É impressa a numeração do bloco de instrução com **`cout << 'L' << before << ':' << endl;`**
+
+2. Obtemos a decomposição (código de três endereços) da `expr` e atribuímos à variável `n` com **`Expression * n = Rvalue(expr);`**
+
+3. O código intermediário é impresso com **`cout << "\tifFalse " << n->ToString() << " goto L" << after << endl;`**, onde verificamos se a expressão atribuída a `n` é verdadeira ou falsa. Se for verdadeira, o fluxo continua para a linha seguinte; se for falsa, ele pula para o bloco de instruções definido pela variável `after`.
+
+4. Chamamos o método **Gen()** do `stmt` para gerar o código intermediário das estruturas internas contidas no while.
+
+5. Ao final, é impresso **`cout << "\tgoto L" << before << endl;`**, que indica que o fluxo deve retornar ao bloco de instruções anterior para realizar uma nova iteração.
