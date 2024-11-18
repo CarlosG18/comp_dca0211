@@ -32,3 +32,7 @@ Essas etapas, interligadas, garantem que o código-fonte seja corretamente anali
 ### 🎯 Atividades/projetos
 
 - [📌 Laboratório 04 - Ferramentas de Análise Léxica](./uni2/lab4/flex.md)
+
+- [📌 Laboratório 05 - integração Flex + compilador Front-end](./uni2/lab5/lab5.md)
+
+

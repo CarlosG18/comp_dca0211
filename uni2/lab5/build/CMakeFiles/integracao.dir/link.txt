@@ -1,0 +1,1 @@
+/usr/sbin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/integracao.dir/ast.cpp.o CMakeFiles/integracao.dir/gen.cpp.o CMakeFiles/integracao.dir/checker.cpp.o CMakeFiles/integracao.dir/parser.cpp.o CMakeFiles/integracao.dir/symtable.cpp.o CMakeFiles/integracao.dir/error.cpp.o CMakeFiles/integracao.dir/tradutor.cpp.o CMakeFiles/integracao.dir/lex.yy.cc.o -o integracao
