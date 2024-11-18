@@ -171,4 +171,4 @@ Foi adicionado alguns tipos restantes no **enum Tag** do arquivo `tokens.h`:
 
 ## 🎥 Video Explicativo
 
-- [link do video]()
+- [link do video](https://youtu.be/eoezBEzsnKw)
